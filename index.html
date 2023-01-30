@@ -35,6 +35,21 @@
         label{
             font-size: 22px;
         }
+
+        @media all and (max-width:414px){
+        #container {
+    text-align: center;
+    background-color: #1abc9c;
+    margin-left: -93px;
+    margin-right: -93px;
+} 
+h1 {
+
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -50px;
+}
+}
     </style>
 </head>
 <body>
@@ -51,7 +66,7 @@
 </div>
 
     <script >
- var cel=document.getElementById("cel");
+        var cel=document.getElementById("cel");
         var fah=document.getElementById("fah");
 
     cel.addEventListener('input',function(){
